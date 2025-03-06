@@ -1,12 +1,14 @@
-body{
-    background-color: azure;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.Navbar {
-    background-color: #46ACC2;
+header {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.navbarsubtitulos{
     display: flex;
-    padding: 16px;
-    font-family: sans-serif;
-    color: white;
-  }
-  
+    justify-content: center;
+}
