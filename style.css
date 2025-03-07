@@ -6,8 +6,8 @@ body {
 
 
 header {
-    background-color: blue;
-    color: aliceblue;
+    background-color: rgb(255, 247, 133);
+    color: rgb(0, 86, 88);
     display:flex;
     justify-content: center;
     padding: 20;
@@ -18,9 +18,6 @@ header {
     padding-right: 250;
     padding-left: 250;
     cursor: pointer;
-}
-.nav-item:hover{
-    color: aquamarine;
 }
 main h1{
     text-align: center;
@@ -33,29 +30,34 @@ main h3{
     padding-left: 10;
 }
 .slider{
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 250px;
     border-radius: 10px;
 }
 
 
 .slider-container{
-    width: 500%;
-    height: 500px;
+    width: 600%;
+    height: 600px;
     display: flex;
+    border-color: black;
 }
 .slider-container input{
     display: none;
+    border-color: black;
 }
 
 
 .slide{
     width: 20%;
     transition: 2s;
+    border-color: black;
 }
 .slide img{
     width: 300px;
     height: 200px;
+    border
+    border-color: black;
 }
 .manual-navigation{
     position: absolute;
@@ -85,6 +87,7 @@ main h3{
 }
 #slide2:checked ~ .first{
     margin-left: -20%;
+    border-color: black;
 }
 #slide3:checked ~ .first{
     margin-left: -40%;
@@ -103,17 +106,8 @@ main h3{
 }
 #slide8:checked ~ .first{
     margin-left: -140%;
-}
-#slide9:checked ~ .first{
-    margin-left: -160%;
-}
-#slide10:checked ~ .first{
-    margin-left: -180%;
-}
-#slide11:checked ~ .first{
-    margin-left: -200%;
-}
 
+}
 
 
 
