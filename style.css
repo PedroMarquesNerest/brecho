@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ header {
 }
 
 .nav-item:hover {
-    color: aquamarine;
+    color: rgb(247, 0, 0);
 }
 
 main h1 {
