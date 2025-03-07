@@ -43,7 +43,7 @@ main h3 {
 }
 
 .slider-container {
-    width: 500%;
+    width: 300%;
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
