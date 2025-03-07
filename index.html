@@ -1,11 +1,13 @@
 <html lang="pt-BR">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brechó</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
     <header>
@@ -14,10 +16,11 @@
         <h2 class="nav-item">Contato</h2>
     </header>
 
+
     <main>
         <h1>Bem-vindos ao Brechó</h1>
         <h3>Aqui você vai encontrar roupas e acessórios incríveis</h3>
-        
+       
         <div class="slider">
             <div class="slider-container">
                 <input type="radio" name="slide-btn" id="slide1" checked>
@@ -27,6 +30,7 @@
                 <input type="radio" name="slide-btn" id="slide5">
                 <input type="radio" name="slide-btn" id="slide6">
                 <input type="radio" name="slide-btn" id="slide7">
+
 
                 <div class="slide first">
                     <div class="product-card">
@@ -39,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                
+               
                 <div class="slide">
                     <div class="product-card">
                         <img src="imgs/Cópia de IMG_1167 (1).png" alt="Camisa Branca Lisa">
@@ -51,7 +55,7 @@
                         </div>
                     </div>
                 </div>
-                
+               
                 <div class="slide">
                     <div class="product-card">
                         <img src="imgs/Cópia de IMG_1170.png" alt="Camisa Amarela Lisa">
@@ -63,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                
+               
                 <div class="slide">
                     <div class="product-card">
                         <img src="imgs/IMG_1166-removebg-preview.png" alt="Camiseta Feminina Preta">
@@ -75,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                
+               
                 <div class="slide">
                     <div class="product-card">
                         <img src="imgs/IMG_1168-removebg-preview.png" alt="Casaco Masculino Preto">
@@ -87,10 +91,21 @@
                         </div>
                     </div>
                 </div>
-                
+               
                 <div class="slide">
                     <div class="product-card">
                         <img src="imgs/IMG_1169-removebg-preview.png" alt="Camisa Masculina Preta">
                         <div class="product-info">
                             <h3 class="product-title">Camisa Masculina Preta</h3>
                             <p class="product-description">Leve e
+
+
+
+
+
+
+const sliderContainer = document.getElementById("slider");
+const slides = document.querySelectorAll("#slider img");
+
+
+let currentIndex = 0;

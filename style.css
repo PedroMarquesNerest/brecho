@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 header {
     background-color: blue;
     color: aliceblue;
@@ -12,6 +13,7 @@ header {
     justify-content: center;
     padding: 20px;
 }
+
 
 .nav-item {
     padding-right: 250px;
@@ -25,9 +27,11 @@ main h1{
     text-align: center;
 }
 
+
 main h3 {
     text-align: center;
 }
+
 
 .about {
     text-align: center;
@@ -39,6 +43,7 @@ main h3 {
     border-radius: 10px;
 }
 
+
 .slider-container{
     width: 500%;
     height: 500px;
@@ -46,10 +51,12 @@ main h3 {
     border-color: black;
 }
 
+
 .slider-container input {
     display: none;
     border-color: black;
 }
+
 
 .slide {
     width: 20%;
@@ -67,6 +74,7 @@ main h3 {
     justify-content: center;
 }
 
+
 .nav-btn {
     border: 2px solid #000000;
     padding: 5px;
@@ -76,34 +84,43 @@ main h3 {
 }
 
 
+
+
 #slide1:checked ~ .first {
     margin-left: 0;
 }
+
 
 #slide2:checked ~ .first {
     margin-left: -20%;
     border-color: black;
 }
 
+
 #slide3:checked ~ .first {
     margin-left: -40%;
 }
+
 
 #slide4:checked ~ .first {
     margin-left: -60%;
 }
 
+
 #slide5:checked ~ .first {
     margin-left: -80%;
 }
+
 
 #slide6:checked ~ .first {
     margin-left: -100%;
 }
 
+
 #slide7:checked ~ .first {
     margin-left: -120%;
 }
+
 
 #slide8:checked ~ .first {
     margin-left: -140%;
@@ -119,8 +136,6 @@ main h3 {
 }
 
 
-
-
 footer{
     background-color: rgb(63, 61, 61);
     color: aliceblue;
@@ -128,3 +143,6 @@ footer{
     padding: 20px;
     margin-top: 50px;
 }
+
+
+
