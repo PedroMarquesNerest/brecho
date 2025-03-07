@@ -1,16 +1,16 @@
-const imgs = document.getElementsById("img");
-const img = document.querySelectorAll("#img img");
+const sliderContainer = document.getElementById("slider");
+const slides = document.querySelectorAll("#slider img");
 
-let idx = 0;
+let currentIndex = 0;
 
-function carrossel(){
-    idx++;
+function carousel(){
+    currentIndex++;
 
-    if(idx > img.length - 1){
-        idx = 0;
+    if(currentIndex > slides.length - 1){
+        currentIndex = 0;
     }
 
-    imgs.style.transform = `translateX(${-idx * 500}px)`;
+    sliderContainer.style.transform = `translateX(${-currentIndex * 500}px)`;
 }
 
-setInterval(carrossel, 1800);
+setInterval(carousel, 1800);
