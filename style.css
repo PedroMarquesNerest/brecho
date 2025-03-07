@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 0;
+    overflow: hidden;
 }
 
 header {
@@ -30,17 +31,84 @@ main h3{
     padding-left: 10;
 }
 .carrossel{
-    display: flex;
     width: 300px;
+    height: 200px;
+    border-radius: 10px;
 }
 
-.carrossel img{
-    width: 100%;
-    transition: transform 0.5s ease-in-out;
-    border-style: groove;
-    border-radius: 20;
-    border-color: black;
+.imagens{
+    width: 500%;
+    height: 500px;
+    display: flex;
 }
+.imagens input{
+    display: none;
+}
+
+.imagem{
+    width: 20%;
+    transition: 2s;
+}
+.imagem img{
+    width: 300px;
+    height: 200px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 700px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    padding-left: 330px;
+}
+
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: #40D3DC;
+}
+#roupa1:checked ~ .primeiro{
+    margin-left: 0;
+}
+#roupa2:checked ~ .primeiro{
+    margin-left: -20%;
+}
+#roupa3:checked ~ .primeiro{
+    margin-left: -40%;
+}
+#roupa4:checked ~ .primeiro{
+    margin-left: -60%;
+}
+#roupa5:checked ~ .primeiro{
+    margin-left: -80%;
+}
+#roupa6:checked ~ .primeiro{
+    margin-left: -100%;
+}
+#roupa7:checked ~ .primeiro{
+    margin-left: -120%;
+}
+#roupa8:checked ~ .primeiro{
+    margin-left: -140%;
+}
+#roupa9:checked ~ .primeiro{
+    margin-left: -160%;
+}
+#roupa10:checked ~ .primeiro{
+    margin-left: -180%;
+}
+#roupa11:checked ~ .primeiro{
+    margin-left: -200%;
+}
+
 
 footer{
     background-color: rgb(63, 61, 61);
